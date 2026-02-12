@@ -1,6 +1,6 @@
 # Setup Instructions
 ```
-git clone https://github.com/brokenCart/sutt-backend-task-3.git
+git clone https://github.com/brokenCart/studydeck-forum.git
 cd sutt-backend-task-3
 python -m venv venv
 source venv/bin/activate
