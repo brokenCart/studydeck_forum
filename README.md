@@ -1,7 +1,7 @@
 # Setup Instructions
 ```
-git clone https://github.com/brokenCart/studydeck-forum.git
-cd sutt-backend-task-3
+git clone https://github.com/brokenCart/studydeck_forum.git
+cd studydeck_forum
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
