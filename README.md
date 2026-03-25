@@ -1,15 +1,2 @@
-# Setup Instructions
-```
-git clone https://github.com/brokenCart/studydeck_forum.git
-cd studydeck_forum
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-export SECRET_KEY="add-your-secret-key-here"
-export DEBUG="true/false (default is false)"
-export ALLOWED_HOSTS="add hosts separated by space"
-export DATABASE_URL="default is sqlite database, you can leave this line"
-export GOOGLE_CLIENT_ID="add google oauth client id"
-export GOOGLE_SECRET="add google oauth secret"
-python manage.py migrate
-```
+# studydeck_forum
+A discussion forum for the studydeck website.
