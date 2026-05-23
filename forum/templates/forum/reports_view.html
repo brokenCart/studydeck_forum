@@ -25,7 +25,7 @@
                             <div>
                                 <strong>Thread:</strong> {{ report.thread.title }}
                             </div>
-                            <a href="{% url 'thread-view' report.thread.category.slug report.thread.id %}{% if report.reply %} ?page={{ reply_page_map|get_item:report.reply.id }}#reply-{{ report.reply.id }} {% endif %}"
+                            <a href="{% url 'thread-view' report.thread.category.slug report.thread.id %}{% if report.reply %}?page={{ reply_page_map|get_item:report.reply.id }}#reply-{{ report.reply.id }} {% endif %}"
                                class="small text-decoration-none">
                                 {% if report.reply %}
                                     View reply →
