@@ -32,3 +32,9 @@ DEFAULT_FROM_EMAIL=your-email@gmail.com
 ```shell
 docker compose up --build
 ```
+
+### For creating superuser
+```
+docker exec -i -t studydeck-forum-web-1 python manage.py createsuperuser
+```
+And then follow the instructions.
