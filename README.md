@@ -362,7 +362,3 @@ uv run python manage.py runserver
 > **Note:** Trigram search requires PostgreSQL. When using SQLite, the search feature will not work.
 
 ---
-
-## 📝 License
-
-This project was developed as part of the **SUTT recruitment** process at BITS Pilani.
