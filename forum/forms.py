@@ -48,7 +48,7 @@ class CreateThreadForm(forms.ModelForm):
                 self.fields["resource"].queryset = Resource.objects.filter(
                     course_id=course_id
                 )
-            except (ValueError, TypeError):
+            except ValueError, TypeError:
                 pass
         elif self.instance.pk and self.instance.course:
             self.fields["resource"].queryset = Resource.objects.filter(

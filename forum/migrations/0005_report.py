@@ -7,7 +7,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ("forum", "0004_thread_course_thread_resource"),
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
